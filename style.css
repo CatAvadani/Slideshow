@@ -1,0 +1,13 @@
+.slideshow-container {
+  position: relative;
+}
+.slideshow-container img {
+  width: 100%;
+  position: absolute;
+  opacity: 0;
+  transition: opacity 0.4s;
+}
+
+.slideshow-container img.show {
+  opacity: 1;
+}
